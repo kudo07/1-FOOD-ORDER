@@ -1,16 +1,18 @@
 import Header from '@/components/Header';
+import Hero from '@/components/Hero';
 
 type Props = {
   children: React.ReactNode;
 };
-const layout = ({ children }: Props) => {
+const Layout = ({ children }: Props) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="cotainer mx-auto flex-1 py-10"></div>
+      <Hero />
+      <div className="cotainer mx-auto flex-1 py-10">{children}</div>
     </div>
   );
 };
-// 
-export default layout;
+//
+export default Layout;
 // 52:00
