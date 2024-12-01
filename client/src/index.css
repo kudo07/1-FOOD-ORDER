@@ -10,7 +10,7 @@
   /* color: aliceblue; */
 }
 body {
-  @apply bg-black  min-h-screen;
+  /* @apply bg-black  min-h-screen; */
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,6 @@ body {
   color: white;
   font-weight: bolder;
 }
-@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
 
 .neon {
   /* font-size: calc(20px + 18vh); */
@@ -34,22 +33,6 @@ body {
   text-align: center;
   animation: blink 12s infinite;
   -webkit-animation: blink 3s infinite;
-}
-
-body {
-  /* padding: 2; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* height: 100vh; */
-  background: #222;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 7px,
-    rgba(0, 0, 0, 0.8) 9px,
-    rgba(0, 0, 0, 0.8) 13px,
-    transparent 13px
-  );
 }
 
 @-webkit-keyframes blink {
