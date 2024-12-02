@@ -1,0 +1,24 @@
+1. /api/my/user 
+    1. user 
+        1. post request http://localhost:7000/api/my/user
+            controller==>myUserController.ts creatCurrentUser method 
+            routes==> /api/my/user myUserRoute.ts
+            model==> user.ts model
+            body==> 
+            {
+                "auth0Id":42424244242424242242224,
+                "email":"test@test.com"
+
+            }
+             response ==> 
+            {
+                 "message": "User created successfully",
+                 "user": {
+                     "auth0Id": "4.242424424242424e+22",
+                     "email": "test@test.com",
+                     "_id": "674d76d9d49c850ff44f6cb6",
+                     "__v": 0
+                 }
+            }
+
+        2. GET REQUEST 
