@@ -52,7 +52,11 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
             <FormItem>
               <FormLabel className="text-orange-400">Email</FormLabel>
               <FormControl>
-                <Input {...field} disabled className="bg-white" />
+                <Input
+                  {...field}
+                  disabled
+                  className="bg-white text-orange-400"
+                />
               </FormControl>
             </FormItem>
           )}
@@ -65,7 +69,7 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
             <FormItem>
               <FormLabel className="text-orange-400">Name</FormLabel>
               <FormControl>
-                <Input {...field} className="bg-white" />
+                <Input {...field} className="bg-white text-orange-400" />
               </FormControl>
             </FormItem>
           )}
@@ -81,7 +85,7 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
                   Address Line 1
                 </FormLabel>
                 <FormControl>
-                  <Input {...field} className="bg-white" />
+                  <Input {...field} className="bg-white text-orange-400 " />
                 </FormControl>
               </FormItem>
             )}
@@ -93,7 +97,7 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
               <FormItem className="flex-1">
                 <FormLabel className="text-orange-400">City</FormLabel>
                 <FormControl>
-                  <Input {...field} className="bg-white" />
+                  <Input {...field} className="bg-white text-orange-400" />
                 </FormControl>
               </FormItem>
             )}
@@ -105,7 +109,7 @@ const UserProfileForm = ({ onSave, isLoading }: Props) => {
               <FormItem className="flex-1">
                 <FormLabel className="text-orange-400">Country</FormLabel>
                 <FormControl>
-                  <Input {...field} className="bg-white" />
+                  <Input {...field} className="bg-white text-orange-400" />
                 </FormControl>
               </FormItem>
             )}
